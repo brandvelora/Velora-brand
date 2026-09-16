@@ -1,4 +1,14 @@
-// Sticky nav
+  // Resolve the repository's root-level assets without changing the page markup.
+  // The site is static-hosted from the repository root, so the old assets/ prefix
+  // caused the logo and carousel images to fail on both desktop and mobile.
+  document.querySelectorAll('img[src^="assets/"]').forEach((image) => {
+    const filename = image.getAttribute('src').replace(/^assets\//, '');
+    image.src = filename === 'hero-3.jpg' ? 'hero-4.jpg' : filename;
+  });
+  const favicon = document.querySelector('link[rel="icon"]');
+  if (favicon) favicon.href = 'favicon.png';
+
+  // Sticky nav
   const nav = document.getElementById('siteNav');
   const onScroll = () => {
     if (window.scrollY > 40) nav.classList.add('scrolled');
@@ -157,6 +167,9 @@
     let autoplayTimer = null;
     const AUTOPLAY_MS = 6000;
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Preserve vertical scrolling while allowing horizontal swipe navigation on phones.
+    root.style.touchAction = 'pan-y';
 
     function goTo(index){
       const next = (index + slides.length) % slides.length;
