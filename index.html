@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velora — A Brand Built on Trust.</title>
+<meta name="description" content="Velora is a modern, forward-thinking brand built on trust, purpose, and the belief that meaningful ideas can create lasting possibilities.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav" id="siteNav">
+  <div class="wrap nav-inner">
+    <a href="#home" class="nav-brand">
+      <img src="assets/velora-logo-light.png" alt="Velora">
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#stand-for">What We Stand For</a>
+      <a href="#collaborate">Collaborate</a>
+      <a href="#talent">Talent</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#collaborate" class="btn btn-ghost">Collaborate</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#stand-for">What We Stand For</a>
+  <a href="#collaborate">Collaborate</a>
+  <a href="#talent">Talent</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <a href="#collaborate" class="btn btn-primary">Collaborate</a>
+</div>
+
+<main>
+
+  <!-- HOME / HERO CAROUSEL -->
+  <section class="hero" id="home">
+    <div class="hero-logo-mark"><div class="logo-badge"><img src="assets/velora-logo-light.png" alt="Velora"></div></div>
+
+    <div class="carousel-track" id="heroCarousel" role="region" aria-roledescription="carousel" aria-label="Velora brand highlights">
+
+      <div class="slide active" data-index="0">
+        <div class="slide-media"><img src="assets/hero-1.jpg" alt="Team collaborating and planning together"></div>
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="slide-kicker">Velora</span>
+          <h1 class="slide-h">A Brand Built on Trust.</h1>
+          <p class="slide-sub">Built With Purpose. Driven by Vision.</p>
+          <div class="slide-cta"><a href="#about" class="btn btn-hero-primary">Discover Velora</a></div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="1">
+        <div class="slide-media"><img src="assets/hero-2.jpg" alt="Colleagues mapping out ideas on a whiteboard" class="pos-hero2"></div>
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="slide-h">Ideas Into Possibilities.</h1>
+          <p class="slide-sub">Turning meaningful ideas into something real.</p>
+          <div class="slide-cta"><a href="#about" class="btn btn-hero-primary">Explore Velora</a></div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="2">
+        <div class="slide-media"><img src="assets/hero-3.jpg" alt="Young violinist practicing at home" class="pos-hero3"></div>
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="slide-h">Talent Can Come From Anywhere.</h1>
+          <p class="slide-sub">Have a talent, skill or idea? We want to hear from you.</p>
+          <div class="slide-cta"><a href="#talent" class="btn btn-hero-primary">Showcase Your Talent</a></div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="3">
+        <div class="slide-media"><img src="assets/hero-4.jpg" alt="Team member presenting ideas to colleagues" class="pos-hero4"></div>
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="slide-h">Better Things Are Built Together.</h1>
+          <p class="slide-sub">Discover opportunities to collaborate with Velora.</p>
+          <div class="slide-cta"><a href="#collaborate" class="btn btn-hero-primary">Partner With Us</a></div>
+        </div>
+      </div>
+
+      <div class="slide" data-index="4">
+        <div class="slide-media"><img src="assets/hero-5.jpg" alt="Children painting together, pointing at their artwork" class="pos-hero5"></div>
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1 class="slide-h">Open to What's Next.</h1>
+          <p class="slide-sub">Exploring new ideas, opportunities and possibilities.</p>
+          <div class="slide-cta"><a href="#collaborate" class="btn btn-hero-primary">Discover More</a></div>
+        </div>
+      </div>
+
+      <button class="car-arrow prev" aria-label="Previous slide">‹</button>
+      <button class="car-arrow next" aria-label="Next slide">›</button>
+      <div class="car-footer">
+        <div class="car-dots" role="tablist" aria-label="Slide navigation">
+          <button class="dot active" data-index="0" aria-label="Slide 1: Trust"></button>
+          <button class="dot" data-index="1" aria-label="Slide 2: Progress"></button>
+          <button class="dot" data-index="2" aria-label="Slide 3: Talent"></button>
+          <button class="dot" data-index="3" aria-label="Slide 4: Collaboration"></button>
+          <button class="dot" data-index="4" aria-label="Slide 5: What's Next"></button>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Built With Purpose. Driven by Vision.</h2>
+        <p>Velora is a modern brand focused on building meaningful ideas, creating opportunities, and connecting people with possibilities.</p>
+        <p>We believe strong brands are built on trust, clear purpose, and the courage to explore what comes next.</p>
+        <p>From ideas and collaborations to new ventures and creative opportunities, Velora is open to discovering what can be built, developed, and achieved.</p>
+        <p class="about-close">A Brand Built on Trust.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE STAND FOR -->
+  <section class="section alt" id="stand-for">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>What We Stand For.</h2>
+      </div>
+      <div class="pillars reveal-group">
+        <div class="pillar card-float" style="--float-i:0">
+          <div class="mark"><span></span></div>
+          <h3>Trust</h3>
+          <p>We build relationships through integrity, transparency and consistency.</p>
+        </div>
+        <div class="pillar card-float" style="--float-i:1">
+          <div class="mark"><span></span></div>
+          <h3>Vision</h3>
+          <p>We think beyond today and pursue meaningful possibilities for tomorrow.</p>
+        </div>
+        <div class="pillar card-float" style="--float-i:2">
+          <div class="mark"><span></span></div>
+          <h3>Progress</h3>
+          <p>We believe ideas become valuable when they are developed and put into motion.</p>
+        </div>
+      </div>
+      <div class="stat-line reveal">
+        <span class="stat-number">5,000+</span>
+        <span class="stat-label">People Reached</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLABORATE -->
+  <section class="section" id="collaborate">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Great Things Can Begin With a Simple Conversation.</h2>
+        <p>Velora is open to meaningful collaborations across creative projects, business concepts, technology, entrepreneurship, content and new ideas.</p>
+        <p>If you have something worth exploring, let's start a conversation.</p>
+        <div class="section-cta"><button type="button" class="btn btn-primary" data-open-modal="collabModal">Start a Conversation</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VELORA TALENT -->
+  <section class="section alt talent-section" id="talent">
+    <div class="wrap">
+      <div class="talent-panel reveal">
+        <div class="talent-glow"></div>
+        <div class="talent-copy">
+          <span class="eyebrow">Velora Talent</span>
+          <h2>Your Talent. Your Potential.</h2>
+          <p>Great talent can come from anywhere.</p>
+          <p>Whether you are a creator, designer, developer, artist, entrepreneur, performer, writer or someone with an exceptional idea, Velora wants to hear from you.</p>
+          <div class="talent-actions">
+            <button type="button" class="btn btn-primary" data-open-modal="talentModal">Showcase Your Talent</button>
+          </div>
+        </div>
+        <div class="talent-visual">
+          <div class="talent-badges">
+            <div class="talent-badge"><span class="dot-mark"></span>Creators &amp; Designers</div>
+            <div class="talent-badge"><span class="dot-mark"></span>Developers &amp; Builders</div>
+            <div class="talent-badge"><span class="dot-mark"></span>Entrepreneurs &amp; Innovators</div>
+            <div class="talent-badge"><span class="dot-mark"></span>Writers, Artists &amp; Performers</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-label="Frequently asked questions">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q">What is Velora?<span class="plus"></span></button>
+          <div class="faq-a"><p>Velora is a modern brand built around trust, purpose, vision and meaningful possibilities.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What does Velora represent?<span class="plus"></span></button>
+          <div class="faq-a"><p>Velora represents the belief that meaningful ideas, people and opportunities can come together to create something valuable.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is Velora limited to one industry?<span class="plus"></span></button>
+          <div class="faq-a"><p>No. Velora is intentionally broad and open to exploring different industries, ventures, ideas and opportunities.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Does Velora embrace technology and AI?<span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. Velora is open to technology, innovation and emerging possibilities while keeping its focus on people, purpose and real-world value.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I partner or collaborate with Velora?<span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. We welcome meaningful partnership and collaboration opportunities.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How can I contact Velora?<span class="plus"></span></button>
+          <div class="faq-a"><p>You can contact Velora through email or mobile using the contact details provided below.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section alt" id="contact">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Let's Connect.</h2>
+        <div class="contact-line-compact">
+          <a href="mailto:velora.reuters@gmail.com">velora.reuters@gmail.com</a>
+          <a href="tel:+97466773235">+974 6677 3235</a>
+          <a href="tel:+254725718349">+254 725 718 349</a>
+        </div>
+        <div class="section-cta"><button type="button" class="btn btn-primary" data-open-modal="contactModal">Send an Inquiry</button></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/velora-logo-light.png" alt="Velora">
+        <p class="tag">A Brand Built on Trust.</p>
+        <p>Built With Purpose. Driven by Vision.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <a href="#about">About</a>
+        <a href="#stand-for">What We Stand For</a>
+        <a href="#collaborate">Collaborate</a>
+        <a href="#talent">Talent</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="mailto:velora.reuters@gmail.com">velora.reuters@gmail.com</a>
+        <a href="tel:+97466773235">+974 6677 3235</a>
+        <a href="tel:+254725718349">+254 725 718 349</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Velora. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="collabModal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="collabModalTitle">
+    <button type="button" class="modal-close" data-close-modal aria-label="Close">&times;</button>
+    <h3 id="collabModalTitle">Start a Conversation</h3>
+    <form id="collabForm" action="https://formspree.io/f/xaenynyz" method="POST" novalidate>
+      <input type="hidden" name="_subject" value="New collaboration inquiry from Velora website">
+      <div class="field">
+        <label for="colName">Full Name</label>
+        <input type="text" id="colName" name="name" required>
+      </div>
+      <div class="field">
+        <label for="colEmail">Email</label>
+        <input type="email" id="colEmail" name="email" required>
+      </div>
+      <div class="field">
+        <label for="colMobile">Mobile Number</label>
+        <input type="tel" id="colMobile" name="phone">
+      </div>
+      <div class="field">
+        <label for="colType">Collaboration Type</label>
+        <select id="colType" name="collaboration_type" required>
+          <option value="" disabled selected>Select a type</option>
+          <option>Creative Project</option>
+          <option>Business Concept</option>
+          <option>Technology</option>
+          <option>Entrepreneurship</option>
+          <option>Content</option>
+          <option>Business Partnership</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="colMessage">Message</label>
+        <textarea id="colMessage" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <span class="btn-label">Send Message</span>
+      </button>
+      <div class="form-success" id="collabSuccess">Thank you for your interest in Velora. We look forward to exploring the possibilities.</div>
+      <div class="form-error" id="collabError">Something went wrong sending your message. Please try again, or email us directly at velora.reuters@gmail.com.</div>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" id="talentModal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="talentModalTitle">
+    <button type="button" class="modal-close" data-close-modal aria-label="Close">&times;</button>
+    <h3 id="talentModalTitle">Showcase Your Talent</h3>
+    <form id="talentForm" action="https://formspree.io/f/xaenynyz" method="POST" novalidate>
+      <input type="hidden" name="_subject" value="New talent submission from Velora website">
+      <div class="field">
+        <label for="tFullName">Full Name</label>
+        <input type="text" id="tFullName" name="name" required>
+      </div>
+      <div class="field">
+        <label for="tEmail">Email</label>
+        <input type="email" id="tEmail" name="email" required>
+      </div>
+      <div class="field">
+        <label for="tMobile">Mobile Number</label>
+        <input type="tel" id="tMobile" name="phone">
+      </div>
+      <div class="field">
+        <label for="tCategory">Talent Category</label>
+        <select id="tCategory" name="talent_category" required>
+          <option value="" disabled selected>Select a category</option>
+          <option>Creative</option>
+          <option>Technology</option>
+          <option>Business</option>
+          <option>Performance</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="tAbout">Tell Us About Your Talent</label>
+        <textarea id="tAbout" name="talent_details" required></textarea>
+      </div>
+      <div class="field">
+        <label for="tPortfolio">Portfolio / Social Link</label>
+        <input type="text" id="tPortfolio" name="portfolio_link" placeholder="https://">
+      </div>
+      <div class="field">
+        <label for="tFile">Upload Supporting File</label>
+        <input type="file" id="tFile" name="supporting_file">
+      </div>
+      <div class="field">
+        <label for="tMessage">Message</label>
+        <textarea id="tMessage" name="message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <span class="btn-label">Submit Your Talent</span>
+      </button>
+      <p class="form-note">We welcome original ideas, skills and creative talent from people at every stage.</p>
+      <div class="form-success" id="talentSuccess">Thank you for sharing your talent with Velora. We look forward to exploring the possibilities.</div>
+      <div class="form-error" id="talentError">Something went wrong sending your submission. Please try again, or email us directly at velora.reuters@gmail.com.</div>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" id="contactModal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <button type="button" class="modal-close" data-close-modal aria-label="Close">&times;</button>
+    <h3 id="contactModalTitle">Send an Inquiry</h3>
+    <form id="inquiryForm" action="https://formspree.io/f/xaenynyz" method="POST" novalidate>
+      <input type="hidden" name="_subject" value="New inquiry from Velora website">
+      <div class="field">
+        <label for="iFullName">Full Name</label>
+        <input type="text" id="iFullName" name="name" required>
+      </div>
+      <div class="field">
+        <label for="iEmail">Email</label>
+        <input type="email" id="iEmail" name="email" required>
+      </div>
+      <div class="field">
+        <label for="iMobile">Mobile Number</label>
+        <input type="tel" id="iMobile" name="phone">
+      </div>
+      <div class="field">
+        <label for="iType">Inquiry Type</label>
+        <select id="iType" name="inquiry_type" required>
+          <option value="" disabled selected>Select a type</option>
+          <option>General Inquiry</option>
+          <option>Partnership</option>
+          <option>Collaboration</option>
+          <option>Business Opportunity</option>
+          <option>Brand Inquiry</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="iMessage">Message</label>
+        <textarea id="iMessage" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        <span class="btn-label">Send Message</span>
+      </button>
+      <div class="form-success" id="inquirySuccess">Thank you for contacting VELORA. Your inquiry has been received. We'll get back to you soon.</div>
+      <div class="form-error" id="inquiryError">Something went wrong sending your message. Please try again, or email us directly at velora.reuters@gmail.com.</div>
+    </form>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
